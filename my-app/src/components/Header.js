@@ -21,10 +21,26 @@ export default class Header extends Component {
                         <div className="banner-text">
                             <h1 className="responsive-headline">Hi my name is {resumeData.name}.</h1>
                             <h2 style={{color:"#fuchsia", fontFamily:'georgia '}}>I am a {resumeData.role}.{resumeData.roleDescription}</h2>
+                            <hr/>
+                            <ul className="social">
+                                {
+                                    resumeData.socialLinks && resumeData.socialLinks.map(item => {
+                                        return(
+                                            <li key={item.name}>
+                                                <a href={item.url} target="_blank"><i className={item.className}></i></a>
+                                            </li>
+                                        )
+                                    })
+                                }
+                                
+                            </ul>
                         </div>
                     </div>
+                    <p className="scrolldown">
+                        <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
+                    </p>
                 </header>
             </React.Fragment>
-        )
+        );
     }
 }
