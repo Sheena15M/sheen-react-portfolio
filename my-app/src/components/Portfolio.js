@@ -3,7 +3,7 @@ export default class Porfolio extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
-      <section id="portfolio">
+      <section id="portfolio"></section>
       <div className="row">
         <div className="twelve columns collapsed">
           <h1>The foundational masterpieces</h1>
@@ -21,16 +21,14 @@ export default class Porfolio extends Component {
                           <p>{item.description}</p>
                         </div>
                       </div>
-                    </a>
-                  </div>
                 </div>
+                    
+                  </div>
+            
               )
             })
-          }
-          </div>
+        }
         </div>
+          </div>
       </div>
-  </section>
-        );
-  }
-}
+  
