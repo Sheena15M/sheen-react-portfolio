@@ -59,3 +59,27 @@ let resumeData = {
 
         }
       ],
+      "skillsDescription":"Skills I've Acquired so far...",
+      "skills":[
+        {
+          "skillname":"HTML5"
+        },
+        {
+          "skillname":"CSS"
+        },
+        {
+          "skillname":"JavaScript"
+        },
+        {
+            "skillname":"MySQL"
+        },
+        {
+            "skillname":"MongoDB"
+        },
+        {
+            "skillname":"NodeJs"
+        },
+        {
+            "skillname":"ReactJs"
+        }
+      ],
