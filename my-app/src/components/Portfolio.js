@@ -3,6 +3,8 @@ export default class Porfolio extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
+    <React.Fragment>
+        
       <section id="portfolio"></section>
       <div className="row">
         <div className="twelve columns collapsed">
@@ -28,6 +30,7 @@ export default class Porfolio extends Component {
               )
             })
         }
+      
         </div>
-          </div>
-      </div>
+        </div>
+        </React.Fragment>
