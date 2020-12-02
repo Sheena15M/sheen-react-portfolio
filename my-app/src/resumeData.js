@@ -16,3 +16,30 @@ let resumeData = {
           "className":"fa fa-github"
         },
       ],
+      "aboutme":"I'm a soon to be graduate from Rutgers coding bootcamp. Also obtained my master's degree in Psychology from Kean University.",
+      "address":"Union, NJ",
+      "website":"https://Sheena15M.github.io",
+      "education":[
+        {
+          "UniversityName":"Rutgers University",
+          "major":"Coding",
+          "startDate":"June 2020",
+          "finishDate":"December 2020",
+          "Degree":"Certificate"
+          
+        },
+        {
+          "UniversityName":"Kean University",
+          "major":"Psychology",
+          "startDate":"August 2014",
+          "finishDate":"December 2017",
+          "Achievements":"Some Achievements"
+        },
+        {
+            "UniversityName":"Bloomfield College",
+            "major":"Psychology",
+            "startDate":"August 2008",
+            "finishDate":"December 2014",
+            "Achievements":"Kappa Delta Pi Member, Psi Chi Member, Deans List" 
+        }
+      ],
