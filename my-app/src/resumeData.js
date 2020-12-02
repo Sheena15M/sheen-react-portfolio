@@ -83,3 +83,37 @@ let resumeData = {
             "skillname":"ReactJs"
         }
       ],
+      "portfolio":[
+        {
+          "name":"Meal and Drink App-Project 1",
+          "description":"An application where you can choose ingredients that you already have and get food and drink ideas to create",
+          "imgurl":"images/portfolio/mealapp.png"
+          "githubUrl": href="https://github.com/Sheena15M/Project1-Meal-and-Drink-app"
+          "deployedUrl": href="https://Sheena15m.github.io/Project1-Meal-and-Drink-app/"
+        },
+        {
+          "name":"Star Wars Quiz",
+          "description":"A star wars knowledge quiz created using javascript",
+          "imgurl":"images/portfolio/Starwars.png"
+          "githubUrl": href="https://github.com/Sheena15M/Star-Wars-Quiz"
+          "deployedUrl": href="https://sheena15m.github.io/Star-Wars-Quiz/"
+        },
+        {
+          "name":"Covid Blues-Project 2",
+          "description":"An application where you can place an order and as an owner add new menu items to your website",  
+          "imgurl":"images/portfolio/CovidBlues.png"
+          "githubUrl": href="https://github.com/Sheena15M/Project2"
+          "deployedUrl": href="https://restaurant-cms-project2.herokuapp.com/"
+        },
+        {
+          "name":"Budget Tracker",
+          "description":"Don't go broke! Track your spending and income with this application",
+          "imgurl":"images/portfolio/Budget.png"
+          "githubUrl": href="https://github.com/Sheena15M/DontGoBroke"
+          "deployedUrl": href="https://hidden-peak-99606.herokuapp.com/"
+        }
+      ],
+
+    }
+
+      export default resumeData
