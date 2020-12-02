@@ -4,8 +4,8 @@ export default class Porfolio extends Component {
     let resumeData = this.props.resumeData;
     return (
     <React.Fragment>
-        
-      <section id="portfolio"></section>
+
+      <section id="portfolio">
       <div className="row">
         <div className="twelve columns collapsed">
           <h1>The foundational masterpieces</h1>
@@ -21,16 +21,16 @@ export default class Porfolio extends Component {
                         <div className="portfolio-item-meta">
                           <h5>{item.name}</h5>
                           <p>{item.description}</p>
+          </React.Fragment>
+
                         </div>
                       </div>
                 </div>
                     
-                  </div>
+                  
             
               )
             })
         }
-      
         </div>
         </div>
-        </React.Fragment>
