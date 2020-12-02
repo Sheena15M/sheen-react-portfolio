@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/sheen-react-portfolio/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/sheen-react-portfolio/static/js/main.6abd58cc.chunk.js",
+    "main.js.map": "/sheen-react-portfolio/static/js/main.6abd58cc.chunk.js.map",
+    "runtime-main.js": "/sheen-react-portfolio/static/js/runtime-main.995ed7bf.js",
+    "runtime-main.js.map": "/sheen-react-portfolio/static/js/runtime-main.995ed7bf.js.map",
+    "static/js/2.40e15bd2.chunk.js": "/sheen-react-portfolio/static/js/2.40e15bd2.chunk.js",
+    "static/js/2.40e15bd2.chunk.js.map": "/sheen-react-portfolio/static/js/2.40e15bd2.chunk.js.map",
+    "index.html": "/sheen-react-portfolio/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/sheen-react-portfolio/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.40e15bd2.chunk.js.LICENSE.txt": "/sheen-react-portfolio/static/js/2.40e15bd2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.995ed7bf.js",
+    "static/js/2.40e15bd2.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.6abd58cc.chunk.js"
+  ]
+}
