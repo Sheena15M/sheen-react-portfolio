@@ -31,4 +31,4 @@ export default class Porfolio extends Component {
         </div>
           </div>
       </div>
-  
+  });
