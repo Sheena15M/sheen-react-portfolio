@@ -43,3 +43,19 @@ let resumeData = {
             "Achievements":"Kappa Delta Pi Member, Psi Chi Member, Deans List" 
         }
       ],
+      "work":[
+        {
+          "CompanyName":"Bright Horizons",
+          "Role":"Associate Teacher",
+          "startDate":"October 2017",
+          "endDate":"Still employed",
+         
+        },
+        {
+          "CompanyName":"Salvation Army:Americorps Program",
+          "Role":"Summer Camp Counselor",
+          "startDate":"July 2017",
+          "endDate":"September 2017",
+
+        }
+      ],
