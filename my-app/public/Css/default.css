@@ -154,3 +154,12 @@ blockquote p {
    font-size: 18px;
    line-height: 36px;
 }
+blockquote cite {
+   display: block;
+   font-size: 12px;
+   font-style: normal;
+   line-height: 18px;
+}
+blockquote cite:before { content: "\2014 \0020"; }
+blockquote cite a,
+blockquote cite a:visited { color: #8B9798; border: none }
