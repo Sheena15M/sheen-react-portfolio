@@ -176,3 +176,13 @@ blockquote cite a:visited { color: #8B9798; border: none }
 	font-size: 80px;
    font-family: Arial, Sans-Serif;
 }
+.pull-quote:before {
+	content: "\201C";
+	top:  33px;
+	left: 0;
+}
+.pull-quote:after {
+	content: '\201D';
+	bottom: -33px;
+	right: 0;
+}
