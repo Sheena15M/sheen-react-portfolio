@@ -201,3 +201,17 @@ abbr {
 	color: gray;
 }
 abbr:hover { cursor: help; }
+
+.drop-cap:first-letter {
+	float: left;
+	margin: 0;
+	padding: 14px 6px 0 0;
+	font-size: 84px;
+	font-family: 'opensans-bold', sans-serif;
+   line-height: 60px;
+	text-indent: 0;
+	background: transparent;
+	color: inherit;
+}
+
+hr { border: solid #E3E3E3; border-width: 1px 0 0; clear: both; margin: 11px 0 30px; height: 0; }
