@@ -269,5 +269,12 @@ li p { }
    color: #313131;
 }
 .stats-tabs li a:hover {
-   color:#11ABB0;
+   color:#b08b11;
+}
+.stats-tabs li a b {
+	display: block;
+	margin: 6px 0 0 0;
+	font-size: 13px;
+	font-family: 'opensans-regular', sans-serif;
+   color: #6a3c7c;
 }
