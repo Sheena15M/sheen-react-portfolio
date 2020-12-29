@@ -261,3 +261,13 @@ li p { }
 	padding: 0;
 	border: none;
 }
+.stats-tabs li a {
+	display: inline-block;
+	font-size: 22px;
+	font-family: 'opensans-bold', sans-serif;
+   border: none;
+   color: #313131;
+}
+.stats-tabs li a:hover {
+   color:#11ABB0;
+}
