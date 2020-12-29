@@ -278,3 +278,19 @@ li p { }
 	font-family: 'opensans-regular', sans-serif;
    color: #6a3c7c;
 }
+
+dl { margin: 12px 0; }
+dt { margin: 0; color:#ab11b0; }
+dd { margin: 0 0 0 20px; }
+
+.lining dt,
+.lining dd {
+	display: inline;
+	margin: 0;
+}
+.lining dt + dt:before,
+.lining dd + dt:before {
+	content: "\A";
+	white-space: pre;
+}
+
