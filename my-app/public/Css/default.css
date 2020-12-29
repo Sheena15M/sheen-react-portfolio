@@ -186,3 +186,18 @@ blockquote cite a:visited { color: #8B9798; border: none }
 	bottom: -33px;
 	right: 0;
 }
+.pull-quote blockquote {
+   margin: 0;
+}
+.pull-quote blockquote:before {
+   content: none;
+}
+
+abbr {
+   font-family: 'opensans-bold', sans-serif;
+	font-variant: small-caps;
+	text-transform: lowercase;
+   letter-spacing: .5px;
+	color: gray;
+}
+abbr:hover { cursor: help; }
