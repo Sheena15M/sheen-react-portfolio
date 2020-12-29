@@ -244,3 +244,20 @@ ol ol li, ol ul li { margin-bottom: 6px; }
 li { line-height: 18px; margin-bottom: 12px; }
 ul.large li { }
 li p { }
+
+/*Statistics Tab*/
+.stats-tabs {
+   padding: 0;
+   margin: 24px 0;
+}
+.stats-tabs li {
+	display: inline-block;
+	margin: 0 10px 18px 0;
+	padding: 0 10px 0 0;
+	border-right: 1px solid #ccc;
+}
+.stats-tabs li:last-child {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
